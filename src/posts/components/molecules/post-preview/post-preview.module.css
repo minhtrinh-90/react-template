@@ -1,0 +1,19 @@
+.container {
+	@apply w-[234px];
+}
+
+.imageContainer {
+	@apply w-full aspect-video relative;
+}
+
+.image {
+	@apply w-full h-full object-cover;
+}
+
+.dateTime {
+	@apply absolute bottom-0 left-0 w-[144px] px-[8px] py-[3px] bg-primary-300 flex justify-between text-white text-[15px];
+}
+
+.title {
+	@apply h-[44px] mt-[7.5px] font-light text-[15px] leading-[22px] tracking-[0.075px] line-clamp-2 text-ellipsis;
+}

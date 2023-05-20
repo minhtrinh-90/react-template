@@ -1,0 +1,11 @@
+.container {
+	@apply mx-auto mt-32 flex flex-col justify-center items-center gap-y-10;
+}
+
+.text {
+	@apply text-lg text-gray-400;
+}
+
+.link {
+	@apply font-semibold text-primary-400;
+}

@@ -1,0 +1,43 @@
+.srOnly {
+  @apply sr-only;
+}
+
+.nav {
+	@apply mx-auto w-full max-w-7xl flex items-center justify-between p-6 lg:px-8;
+}
+
+.logoContainer {
+	@apply flex lg:flex-1;
+}
+
+.logoLink {
+	@apply -m-1.5 p-1.5;
+}
+
+.logoImage {
+	@apply h-12 w-auto;
+}
+
+.mobileButtonContainer {
+	@apply flex lg:hidden;
+}
+
+.mobileButton {
+	@apply -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700;
+}
+
+.itemsContainer {
+	@apply hidden lg:flex lg:gap-x-12;
+}
+
+.navItem {
+	@apply text-sm font-semibold leading-6 text-gray-900;
+}
+
+.signInContainer {
+	@apply hidden lg:flex lg:flex-1 lg:justify-end;
+}
+
+.signInLink {
+	@apply text-sm font-semibold leading-6 text-gray-900;
+}

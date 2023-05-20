@@ -1,0 +1,7 @@
+.container {
+	@apply pt-[56px];
+}
+
+.buttonContainer {
+	@apply flex justify-center items-center mt-6 mb-12;
+}

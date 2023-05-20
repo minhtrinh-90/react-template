@@ -1,0 +1,47 @@
+.srOnly {
+  @apply sr-only;
+}
+
+.dialog {
+	@apply lg:hidden;
+}
+
+.backdrop {
+	@apply fixed inset-0 z-10;
+}
+
+.panel {
+	@apply fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10;
+}
+
+.topBar {
+	@apply flex items-center justify-between;
+}
+
+.logoLink {
+	@apply -m-1.5 p-1.5;
+}
+
+.logoImage {
+	@apply h-12 w-auto;
+}
+
+.closeButton {
+	@apply -m-2.5 rounded-md p-2.5 text-gray-700;
+}
+
+.closeIcon {
+	@apply h-6 w-6;
+}
+
+.menuRoot {
+	@apply mt-6 flow-root;
+}
+
+.menuContainer {
+	@apply -my-6 divide-y divide-gray-500/10;
+}
+
+.itemsContainer {
+	@apply space-y-2 py-6;
+}

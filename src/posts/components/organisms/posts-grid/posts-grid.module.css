@@ -1,0 +1,3 @@
+.container {
+	@apply mt-[56px] w-full max-w-7xl mx-auto grid grid-cols-4 gap-6;
+}

@@ -1,0 +1,7 @@
+.container {
+	@apply my-6 mx-auto flex flex-col gap-y-4;
+}
+
+.spinnerContainer {
+	@apply h-8 w-full flex justify-center items-center;
+}

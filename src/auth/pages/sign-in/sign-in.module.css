@@ -1,0 +1,19 @@
+.container {
+	@apply mx-auto flex flex-col justify-center py-12 w-full max-w-md;
+}
+
+.logo {
+	@apply mx-auto h-20 w-auto;
+}
+
+.form {
+	@apply mt-8;
+}
+
+.buttonContainer {
+	@apply w-full flex justify-center items-center mt-4;
+}
+
+.redirectLink {
+	@apply w-full mt-4 text-center text-gray-400 underline;
+}

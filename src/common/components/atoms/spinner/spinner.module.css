@@ -1,0 +1,11 @@
+.spinner {
+	@apply w-auto h-full text-primary-500 animate-spin;
+}
+
+.circle {
+	@apply opacity-25;
+}
+
+.circle {
+	@apply opacity-75;
+}
