@@ -52,9 +52,15 @@ const MainNav = () => {
         ))}
       </div>
       <div className={styles.signInContainer}>
-        <Link to="/sign-in" className={styles.signInLink}>
-          Log in <span aria-hidden="true">&rarr;</span>
-        </Link>
+        {user ? (
+          <Link to="/sign-out" className={styles.signInLink}>
+            Sign out <span aria-hidden="true">&rarr;</span>
+          </Link>
+        ) : (
+          <Link to="/sign-in" className={styles.signInLink}>
+            Sign in <span aria-hidden="true">&rarr;</span>
+          </Link>
+        )}
       </div>
       <MobileMenu
         navItems={navItems}
